@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "belief-section": "url('../public/assets/belief-pattern.png')",
+        "footer-section": "url('../public/assets/footer-bg.png')",
       },
     },
   },

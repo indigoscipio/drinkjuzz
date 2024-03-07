@@ -2,15 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer components {
   .btn-primary-white {
     @apply py-3 px-6 bg-white text-lime-800 font-black rounded-2xl;
   }
   .btn-primary-orange {
-    @apply py-3 px-6 bg-orange-600 text-white font-black rounded-2xl;
+    @apply py-3 px-6 bg-orange-500 text-white font-black rounded-2xl;
+  }
+  .btn-primary-violet {
+    @apply py-3 px-6 bg-violet-600 text-white font-black rounded-2xl;
   }
 }
 
 .header__nav {
   border-radius: 2rem;
+}
+
+.menu__list-img-container {
+  border-radius: 3rem;
+}
+
+.container-border-radius {
+  border-radius: 3rem;
 }

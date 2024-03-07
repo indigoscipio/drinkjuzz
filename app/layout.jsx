@@ -36,6 +36,9 @@ const omnes = localFont({
 export default function RootLayout({ children }) {
   return (
     <html className={omnes.className} lang="en">
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </head>
       <body>
         <Header />
 

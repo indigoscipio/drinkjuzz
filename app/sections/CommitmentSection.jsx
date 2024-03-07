@@ -31,14 +31,14 @@ const CommitmentSection = () => {
   return (
     <section id="commitment-section" className="commitment-section m-4">
       <div className="p-4 py-12 md:py-16 lg:py-24 container-border-radius container mx-auto bg-yellow-400 text-lime-800">
-        <h2 className="mb-8 lg:mb-24 text-center text-3xl font-black">
+        <h2 className="mb-8 lg:mb-24 text-center text-3xl md:text-4xl font-black">
           Our Commitment
         </h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {commitments.map((commitment, index) => (
             <li key={index} className="flex flex-col items-center text-center">
               <img src={commitment.image} alt="" className="mb-4" />
-              <h3 className="text-xl font-bold">{commitment.title}</h3>
+              <h3 className="text-xl font-bold mb-2">{commitment.title}</h3>
               <p className="text-slate-600">{commitment.description}</p>
             </li>
           ))}

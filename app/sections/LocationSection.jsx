@@ -23,7 +23,7 @@ const LocationSection = () => {
                 href="https://maps.app.goo.gl/r8hn8d4x5PbxegMj8"
               >
                 Get Directions
-              </Link>{" "}
+              </Link>
             </button>
           </div>
 

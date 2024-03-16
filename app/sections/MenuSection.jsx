@@ -2,18 +2,46 @@ import React from "react";
 
 const MenuSection = () => {
   const juices = [
-    { name: "Strawberry Smoothie", price: "IDR 5,000" },
-    { name: "Apple Juice", price: "IDR 7,000" },
-    { name: "Orange Juice", price: "IDR 6,000" },
-    { name: "Watermelon Juice", price: "IDR 8,000" },
-    { name: "Pineapple Juice", price: "IDR 6,500" },
-    { name: "Grape Juice", price: "IDR 7,500" },
-    { name: "Mango Smoothie", price: "IDR 6,800" },
-    { name: "Banana Shake", price: "IDR 6,200" },
-    { name: "Blueberry Juice", price: "IDR 7,200" },
-    { name: "Kiwi Juice", price: "IDR 6,300" },
-    { name: "Cranberry Juice", price: "IDR 7,800" },
-    { name: "Peach Smoothie", price: "IDR 6,700" },
+    {
+      name: "Strawberry Smoothie",
+      price: "IDR 5,000",
+      img: "./assets/menu/menu-1.png",
+    },
+    {
+      name: "Apple Juice",
+      price: "IDR 7,000",
+      img: "./assets/menu/menu-2.png",
+    },
+    {
+      name: "Orange Juice",
+      price: "IDR 6,000",
+      img: "./assets/menu/menu-3.png",
+    },
+    {
+      name: "Orange Juice",
+      price: "IDR 6,000",
+      img: "./assets/menu/menu-4.png",
+    },
+    {
+      name: "Orange Juice",
+      price: "IDR 6,000",
+      img: "./assets/menu/menu-5.png",
+    },
+    {
+      name: "Orange Juice",
+      price: "IDR 6,000",
+      img: "./assets/menu/menu-6.png",
+    },
+    {
+      name: "Orange Juice",
+      price: "IDR 6,000",
+      img: "./assets/menu/menu-7.png",
+    },
+    {
+      name: "Orange Juice",
+      price: "IDR 6,000",
+      img: "./assets/menu/menu-8.png",
+    },
   ];
 
   return (
@@ -32,7 +60,7 @@ const MenuSection = () => {
               <li className="flex justify-center mb-6" key={index}>
                 <div className="menu__list-item">
                   <div className="menu__list-img-container mb-2 w-72 h-72 flex justify-center items-center bg-violet-100">
-                    <img src="./assets/product-1.png" alt="" />
+                    <img src={juice.img} />
                   </div>
                   <h4 className="text-center font-black text-lime-800 text-xl">
                     {juice.name}

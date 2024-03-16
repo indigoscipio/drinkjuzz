@@ -5,9 +5,9 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section className="hero-section">
-      <div className="px-4 py-12 md:py-24 lg:py-32 md:px-0 container mx-auto">
+      <div className="px-4 py-12 md:py-16 md:px-0 container mx-auto">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="basis-1/2 md:pr-16 lg:pr-48 hero-section__text flex flex-col gap-8">
+          <div className="basis-1/2 md:pr-16 lg:pr-24 xl:pr-48 hero-section__text flex flex-col gap-8">
             <h1 className="font-black text-4xl md:text-5xl text-lime-800">
               Juzz! Up Your Day with Fresh, Delicious Delights
             </h1>
@@ -36,10 +36,10 @@ const HeroSection = () => {
           </div>
           <div className="hero-section__image basis-1/2">
             <Image
-              width={1108}
-              height={828}
+              width={1496}
+              height={1496}
               className=""
-              src="/assets/hero-image.jpg"
+              src="/assets/hero-image.png"
               alt=""
             />
           </div>
